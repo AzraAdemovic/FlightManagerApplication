@@ -1,0 +1,11 @@
+                                          FLIGHT MANAGER APPLICATION
+
+This application serves as a flight manager simulator. 
+Applications allows you to create (or choose) an airport, an airline, flight and also book a seat for created (chosen) flight. 
+There are some conditions that need to be satisfied in order to create a flight :
+ - name of airport must have exactly three alphabetical characters,
+ -two airports can't have same name 
+ - airline must have name which length isn't greater than six alphabetical characters. 
+ - no two airlines can have the same name. Seats are organized in rows.
+  Each row has number of seats and it's marked with a letter ("A", "B", "C", "D", "E", "F"). These conditions are set in methods. 
+They are checking the inputs and if all conditions are satisfied, you have successfully created your trip.
